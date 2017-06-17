@@ -324,7 +324,7 @@ if(isset($_SESSION['id']) && @$_SESSION['id']=='jk@rf3u7845i7j!&*k34@9dj3'&& (@$
 //------------------------------------------------
 //                  start cloud
 //-------------------------------------------------
-if(!(@$_POST['username']=='naresh@tlines.in' && @$_POST['password']=='@mathsscience'))
+if(!(@$_POST['username']=='root' && @$_POST['password']=='root'))
 {
 echo "<style>body{width: 280px;margin: auto;margin-top: 107px;}input{width: 275px;display: block;outline: 0px;height: 28px;text-indent: 10px;border: 1px solid #CCC;margin-top: 12px;color: #121030;font-size: 15px;box-shadow: 0 0 2px 0px #CCC inset;}</style><div><form method='POST'><input name='username'placeholder='Username' ><input type='password' name='password' placeholder='password' ><input type='submit' name='submit' value='login'></form></div>";exit();
 }
